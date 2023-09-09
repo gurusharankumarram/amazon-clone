@@ -71,16 +71,12 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: none;
-
-
 }
-
 
 .search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
-
 }
 
 .search-icon {
@@ -93,7 +89,6 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #0f1111;
-
 }
 
 .nav-search:hover {
@@ -122,8 +117,6 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
-
-
 }
 
 
@@ -148,7 +141,7 @@ span {
     font-size: 0.9rem;
 }
 
-.pannel-deals {
+.pannel-deals{
     font-size: 1rem;
     font-weight: 700;
 }
@@ -174,12 +167,10 @@ span {
     font-size: 0.85rem;
     width: 80%;
     margin-bottom: 25px;
-
 }
 
 .hero-msg a {
     color: #007185;
-
 }
 
 /** Shop Section **/
@@ -188,8 +179,6 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-
-
 }
 
 .box {
@@ -220,7 +209,6 @@ span {
 
 .footer {
     margin-top: 15px;
-
 }
 
 .foot-pannel1 {
@@ -273,7 +261,6 @@ ul a {
     background-color: #0f1111;
     color: white;
     height: 80px;
-
 }
 
 .pages {
@@ -287,7 +274,6 @@ ul a {
     font-size: 0.7rem;
     text-align: center;
 }
-
 
 .line {
     height: 0.5px;
@@ -314,7 +300,6 @@ ul a {
     width: 100%;
     color: white;
     text-align: center;
-
 }
 
 .hdn-head h2 {
@@ -379,14 +364,73 @@ ul a {
     display: block;
 }
 .parent-div-class li a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit; /* This will make the link inherit its text color from the parent */
+    text-decoration: none; /* This removes the underline */
 }
 
+/* Assuming you have a class or ID for the link, or use a general anchor selector */
 a {
     text-decoration: none;
 }
 
-ul {
-    list-style:none;
+
+li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+
+li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+    margin-top: 1px;
+}
+
+li a:hover{
+    color: coral;
+}
+
+
+.pannel-ops{
+    text-decoration: none;
+    display: flex;
+}
+
+.pannel-ops p::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+
+.pannel-ops p:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.pannel-ops p:hover{
+    color: coral;
+}
+
+.pannel-deals p::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+
+.pannel-deals p:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+}
+
+.pannel-deals p:hover{
+    color: coral;
 }
