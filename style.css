@@ -120,6 +120,8 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+
+
 }
 
 
@@ -144,7 +146,7 @@ span {
     font-size: 0.9rem;
 }
 
-.pannel-deals{
+.pannel-deals {
     font-size: 1rem;
     font-weight: 700;
 }
@@ -175,6 +177,7 @@ span {
 
 .hero-msg a {
     color: #007185;
+
 }
 
 /** Shop Section **/
@@ -183,6 +186,8 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+
+
 }
 
 .box {
@@ -213,6 +218,7 @@ span {
 
 .footer {
     margin-top: 15px;
+
 }
 
 .foot-pannel1 {
@@ -306,6 +312,7 @@ ul a {
     width: 100%;
     color: white;
     text-align: center;
+
 }
 
 .hdn-head h2 {
@@ -359,6 +366,7 @@ ul a {
 
 .black.active {
     width: 100%;
+
 }
 
 .sidebar.active {
@@ -368,6 +376,7 @@ ul a {
 .fa-xmark.active {
     display: block;
 }
+
 .parent-div-class li a {
     color: inherit;
     text-decoration: none;
@@ -387,20 +396,21 @@ li a::after {
     display: block;
 }
 
-li a:hover::after{
+li a:hover::after {
     width: 100%;
     transition: width 0.3s linear;
     margin-top: 1px;
 }
 
-li a:hover{
+li a:hover {
     color: coral;
 }
 
 
-.pannel-ops{
+.pannel-ops {
     text-decoration: none;
     display: flex;
+
 }
 
 .pannel-ops p::after {
@@ -412,12 +422,12 @@ li a:hover{
     display: block;
 }
 
-.pannel-ops p:hover::after{
+.pannel-ops p:hover::after {
     width: 100%;
     transition: width 0.3s linear;
 }
 
-.pannel-ops p:hover{
+.pannel-ops p:hover {
     color: coral;
 }
 
@@ -430,11 +440,11 @@ li a:hover{
     display: block;
 }
 
-.pannel-deals p:hover::after{
+.pannel-deals p:hover::after {
     width: 100%;
     transition: width 0.3s linear;
 }
 
-.pannel-deals p:hover{
+.pannel-deals p:hover {
     color: coral;
 }
