@@ -289,8 +289,6 @@ ul a {
 }
 
 
-/* Experiment */
-
 .line {
     height: 0.5px;
     width: 100%;
@@ -380,19 +378,16 @@ ul a {
 .fa-xmark.active {
     display: block;
 }
+
 .parent-div-class li a {
     color: inherit; /* This will make the link inherit its text color from the parent */
     text-decoration: none; /* This removes the underline */
 }
 
-.hero-msg {
-    color: inherit;
+a {
     text-decoration: none;
 }
   
 ul {
     list-style:none;
 }
-
-
-/* Experiment */
